@@ -26,14 +26,23 @@
 	
 	</div>
 
+	<div id="audioBox">
+		<audio controls autoplay>
+  	
+ 			<source src="audio/cars.mp3" type="audio/mpeg">
+		
+		</audio>
+	</div>
+
 
 	<div id="imageBox">
 
 
-		<div class="navButton" id="right">
+		
 
-			<img class="arrowButtons" src="images/right_arrow.png" alt="Right Arrow">
+		<div class="navButton" id="left">
 
+			<img class="arrowButtons" src="images/left_arrow.png" alt="Left Arrow" onclick="doLeftClick()">
 		</div>
 		
 
@@ -57,13 +66,16 @@
 
 		</div>
 
-		<div class="navButton" id="left">
+		<div class="navButton" id="right">
 
-			<img class="arrowButtons" src="images/left_arrow.png" alt="Left Arrow">
+			<img class="arrowButtons" src="images/right_arrow.png" alt="Right Arrow" onclick="doRightClick()">
+
 		</div>
 
 
 	</div>
+
+	
 
     <script type="text/javascript" src="js/fan.js"></script>
 </body>
